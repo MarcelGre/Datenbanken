@@ -1,78 +1,78 @@
 insert into Trainer
-values (default, 2, 'Pep Guardiola', '1980-02-03');
+values (1, 1, 'Thomas Tuchel', '1985-06-07');
 insert into Trainer
-values (default, 3, 'Carlo Ancelotti', '1970-04-05');
+values (2, 2, 'Pep Guardiola', '1980-02-03');
 insert into Trainer
-values (default, 1, 'Thomas Tuchel', '1985-06-07');
+values (3, 3, 'Carlo Ancelotti', '1970-04-05');
 insert into Trainer
-values (default, 4, 'Christian Streich', '1965-08-09');
+values (4, 4, 'Christian Streich', '1965-08-09');
 
 insert into Verein
-values (default, 3, 'Borussia Dortmund', 'Signal Iduna Park', '0502378473');
+values (1, 1, 'Borussia Dortmund', 'Signal Iduna Park', '0502378473');
 insert into Verein
-values (default, 1, 'FC Barcelona', 'Camp Nou', '5783467564');
+values (2, 2, 'FC Barcelona', 'Camp Nou', '5783467564');
 insert into Verein
-values (default, 2, 'FC Bayern Muenchen', 'Allianz Arena', '0987344322');
+values (3, 3, 'FC Bayern Muenchen', 'Allianz Arena', '0987344322');
 insert into Verein
-values (default, 4, 'SC Freiburg', 'Schwarzwald-Stadion', '7364726423');
+values (4, 4, 'SC Freiburg', 'Schwarzwald-Stadion', '7364726423');
 
 insert into Spieler
-values (default, 1, 'Marco Reus', '1990-12-12', 'LM', 700, 8000, 88);
+values (1, 1, 'Marco Reus', '1990-12-12', 'LM', 700, 8000, 88);
 insert into Spieler
-values (default, 1, 'Pierre-Emerick Aubameyang', '1989-09-08', 'ST', 1000, 10000, 86);
+values (2, 1, 'Pierre-Emerick Aubameyang', '1989-09-08', 'ST', 1000, 10000, 86);
 insert into Spieler
-values (default, 1, 'Shinji Kagawa', '1985-02-03', 'ZOM', 300, 800, 83);
+values (3, 1, 'Shinji Kagawa', '1985-02-03', 'ZOM', 300, 800, 83);
 insert into Spieler
-values (default, 1, 'Julian Weigl', '1994-11-10', 'ZDM', 400, 1500, 79);
+values (4, 1, 'Julian Weigl', '1994-11-10', 'ZDM', 400, 1500, 79);
 insert into Spieler
-values (default, 1, 'Andre Schuerrle', '1988-07-08', 'LM', 500, 2000, 81);
+values (5, 1, 'Andre Schuerrle', '1988-07-08', 'LM', 500, 2000, 81);
 insert into Spieler
-values (default, 1, 'Mario Goetze', '1990-01-01', 'ZOM', 550, 3500, 84);
+values (6, 1, 'Mario Goetze', '1990-01-01', 'ZOM', 550, 3500, 84);
 insert into Spieler
-values (default, 1, 'Marcel Schmelzer', '1979-02-03', 'LV', 250, 600, 80);
+values (7, 1, 'Marcel Schmelzer', '1979-02-03', 'LV', 250, 600, 80);
 insert into Spieler
-values (default, 1, 'Sokratis', '1980-08-12', 'IV', 600, 3000, 84);
+values (8, 1, 'Sokratis', '1980-08-12', 'IV', 600, 3000, 84);
 insert into Spieler
-values (default, 1, 'Marc Bartra', '1988-06-09', 'IV', 500, 2500, 81);
+values (9, 1, 'Marc Bartra', '1988-06-09', 'IV', 500, 2500, 81);
 insert into Spieler
-values (default, 1, 'Lukas Piszczek', '1980-01-03', 'RV', 400, 1000, 82);
+values (10, 1, 'Lukas Piszczek', '1980-01-03', 'RV', 400, 1000, 82);
 insert into Spieler
-values (default, 1, 'Roman Buerki', '1990-11-10', 'TW', 400, 900, 81);
+values (11, 1, 'Roman Buerki', '1990-11-10', 'TW', 400, 900, 81);
 insert into Spieler
-values (default, 2, 'Lionel Messi', '1980-06-11', 'RF', 2000, 100000, 93);
+values (12, 2, 'Lionel Messi', '1980-06-11', 'RF', 2000, 100000, 93);
 insert into Spieler
-values (default, 2, 'Andres Iniesta', '1972-02-04', 'ZM', 1000, 8000, 88);
+values (13, 2, 'Andres Iniesta', '1972-02-04', 'ZM', 1000, 8000, 88);
 insert into Spieler
-values (default, 2, 'Javier Mascherano', '1975-02-01', 'IV', 600, 2000, 85);
+values (14, 2, 'Javier Mascherano', '1975-02-01', 'IV', 600, 2000, 85);
 insert into Spieler
-values (default, 2, 'Marc-Andre ter Stegen', '1993-01-12', 'TW', 700, 2500, 83);
+values (15, 2, 'Marc-Andre ter Stegen', '1993-01-12', 'TW', 700, 2500, 83);
 insert into Spieler
-values (default, 3, 'Arjen Robben', '1980-07-09', 'RM', 900, 6000, 87);
+values (16, 3, 'Arjen Robben', '1980-07-09', 'RM', 900, 6000, 87);
 insert into Spieler
-values (default, 2, 'Robert Lewandowski', '1980-08-10', 'ST', 1200, 9000, 90);
+values (17, 2, 'Robert Lewandowski', '1980-08-10', 'ST', 1200, 9000, 90);
 insert into Spieler
-values (default, 2, 'Mats Hummels', '1978-04-05', 'IV', 800, 5000, 87);
+values (18, 2, 'Mats Hummels', '1978-04-05', 'IV', 800, 5000, 87);
 insert into Spieler
-values (default, 3, 'Manuel Neuer', '1985-02-11', 'TW', 900, 10000, 92);
+values (19, 3, 'Manuel Neuer', '1985-02-11', 'TW', 900, 10000, 92);
 insert into Spieler
-values (default, 3, 'Franck Ribery', '1982-08-01', 'LM', 900, 5500, 86);
+values (20, 3, 'Franck Ribery', '1982-08-01', 'LM', 900, 5500, 86);
 insert into Spieler
-values (default, 4, 'Nils Petersen', '1988-12-06', 'ST', 100, 200, 76);
+values (21, 4, 'Nils Petersen', '1988-12-06', 'ST', 100, 200, 76);
 insert into Spieler
-values (default, 4, 'Julian Schuster', '1985-04-07', 'ZDM', 40, 80, 70);
+values (22, 4, 'Julian Schuster', '1985-04-07', 'ZDM', 40, 80, 70);
 insert into Spieler
-values (default, 4, 'Pascal Stenzel', '1996-02-12', 'RV', 25, 70, 66);
+values (23, 4, 'Pascal Stenzel', '1996-02-12', 'RV', 25, 70, 66);
 insert into Spieler
-values (default, 4, 'Alexander Schwolow', '1992-11-09', 'TW', 40, 80, 70);
+values (24, 4, 'Alexander Schwolow', '1992-11-09', 'TW', 40, 80, 70);
 insert into Spieler
-values (default, null, 'Pele', '1940-11-10', 'ST', 2500, 150000, 99);
+values (25, null, 'Pele', '1940-11-10', 'ST', 2500, 150000, 99);
 insert into Spieler
-values (default, null, 'Christian Westphal', '1988-02-09', 'RM', 0, 0, 43);
+values (26, null, 'Christian Westphal', '1988-02-09', 'RM', 0, 0, 43);
 
 insert into Transfer
-values (default, 17, 3, '2015-08-07');
+values (1, 17, 3, '2015-08-07');
 insert into Transfer
-values (default, 18, 3, '2016-07-07');
+values (2, 18, 3, '2016-07-07');
 insert into Transfer
-values (default, 7, 4, '2017-01-01');
+values (3, 7, 4, '2017-01-01');
 
