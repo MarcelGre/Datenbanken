@@ -1,0 +1,60 @@
+*** Welche 10 Spieler beziehen das meiste Geld ***
+SELECT TOP 5 * 
+FROM spieler
+ORDER BY marktwert DESC
+
+
+*** Welche 5 SPieler haben die längste Zeit nicht gewechselt ***
+SELECT TOP 5 name, position, gehalt, marktwert, bewertung, datum, erloes
+FROM spieler, transfer
+WHERE spieler.spieler_ID = transfer.spieler_ID
+ORDER BY datum
+
+
+*** Welche Vereine haben weniger als 10 Spieler ***
+SELECT DISTINCT vereinsname 
+FROM verein, spieler
+WHERE 
+(SELECT COUNT(*) 
+FROM verein, spieler
+WHERE spieler.vereins_ID = verein.vereins_ID) 
+<10
+
+
+*** Welche Torwärte haben eine Bewertung über 80 ***
+SELECT *  
+FROM  spieler
+where position = 'TW'
+AND bewertung > 80
+ORDER BY bewertung DESC
+
+
+*** Gesamtausgaben (Gehalt) eines Vereins pro Jahr ***
+SELECT vereinsname, SUM(gehalt)
+FROM  verein, spieler
+WHERE spieler.VEREINS_ID = verein.VEREINS_ID
+GROUP BY vereinsname
+ORDER BY SUM(gehalt) DESC
+
+
+*** Gesamtausgaben der Vereine durch Transfers *** 
+SELECT vereinsname, SUM(erloes)
+FROM  verein, transfer
+WHERE transfer.vereins_ID_neu = verein.VEREINS_ID
+GROUP BY vereinsname
+ORDER BY SUM(erloes) DESC
+
+
+*** Spieler mit den häufigstens Transfers ***
+SELECT FIRST name, COUNT(*) as transfers 
+FROM spieler, transfer
+WHERE transfer.SPIELER_ID = spieler.spieler_ID
+GROUP BY name
+ORDER BY transfers
+
+
+*** Durchschnittliche Spielerbewertung ***
+SELECT vereinsname, AVG(bewertung) AS 'Durschnittl. Bewertung'
+FROM spieler, verein
+WHERE spieler.vereins_ID = verein.vereins_ID
+GROUP BY vereinsname
