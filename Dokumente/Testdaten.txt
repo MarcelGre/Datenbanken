@@ -74,7 +74,5 @@ values (default, 17, 3, '2015-08-07');
 insert into Transfer
 values (default, 18, 3, '2016-07-07');
 insert into Transfer
-values (default, 12, 1, '2017-01-01');
-insert into Transfer
 values (default, 7, 4, '2017-01-01');
 
